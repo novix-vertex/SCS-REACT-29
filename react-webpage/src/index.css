@@ -112,31 +112,74 @@ body {
   border-radius: 2rem;
   border: 1.2px solid rgb(183, 179, 179);
 }
-.aboutus-section h3{
+
+.aboutus-section h3 {
   font-weight: 600;
-  color:#060D1C;
-  width:50%;
-  font-size:1.5rem;
+  color: #060D1C;
+  width: 50%;
+  font-size: 1.5rem;
 }
 
-.facts-num-section{
-  display:flex;
+.facts-num-section {
+  display: flex;
   justify-content: center;
   align-items: center;
-  gap:5rem;
+  gap: 5rem;
   padding: 2rem 0;
 }
-.facts-num-section .fact{
+
+.facts-num-section .fact {
   text-align: center;
 }
-.facts-num-section h2{
-  color:#060D1C;
+
+.facts-num-section h2 {
+  color: #060D1C;
   font-size: 3rem;
   font-weight: 600;
 }
-.facts-num-section h4{
-  color:#060D1C;
+
+.facts-num-section h4 {
+  color: #060D1C;
   font-size: 1.2rem;
   font-weight: 300;
 }
 
+.factscards-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+}
+
+.card {
+  width: 33.33%;
+  aspect-ratio: 1;
+  border-radius: 4rem;
+}
+
+.factscards-section .card1 {
+  background-color: #060D1C;
+}
+
+.factscards-section .card2 {
+  background: url('practice-person.webp');
+  background-position: center;
+  background-size: cover;
+  
+  align-content: center;
+  text-align: center;
+}
+.factscards-section .card2 button{
+  color:white;
+  background:  linear-gradient(to right,#93CCF0aa,#93CCF022);
+  padding:0.8rem 1.6rem;
+  border-radius: 2rem;
+  border:1px solid #93CCF022;
+  backdrop-filter: blur(20px);
+  font-weight: 350;
+  font-size: 1.2rem;
+  }
+
+.factscards-section .card3 {
+  background-color: #F6F8FC;
+}

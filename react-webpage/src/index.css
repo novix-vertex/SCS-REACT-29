@@ -22,7 +22,7 @@ body {
 }
 #navbar menu{
  display:flex;
- gap:1rem;
+ gap:2rem;
 }
 #navbar h4,#navbar i{
   background: black;

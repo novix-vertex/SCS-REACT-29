@@ -1,46 +1,54 @@
 /* CSS Boilerplate */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-html,
-body {
-    width: 100%;
-    height: 100%;
-    background: #FFFFFF;
-    padding:1rem;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
 
-#navbar{
-  height:60px;
-  width:100%;
-  display:flex;
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: #FFFFFF;
+  padding: 1rem;
+}
+
+.navbar {
+  height: 60px;
+  width: 100%;
+  display: flex;
   justify-content: space-between;
   align-items: center;
 }
-#navbar menu{
- display:flex;
- gap:2rem;
+
+.navbar menu {
+  display: flex;
+  gap: 2rem;
 }
-#navbar h4,#navbar i{
+
+.navbar h4,
+.navbar i {
   background: black;
-  color:white;
+  color: white;
   font-weight: 100;
   border-radius: 2rem;
 }
-#navbar h4{
+
+.navbar h4 {
   padding: 8px 16px;
 }
 
-#navbar menu a{
+.navbar menu a {
   text-decoration: none;
-  color:black;
+  color: black;
   font-weight: 100;
-  padding:5px 10px;
+  padding: 5px 10px;
   border-radius: 2rem;
 }
-#navbar menu a:hover{
+
+.navbar menu a:hover {
   border: 1.2px solid black;
 }
+
+

@@ -14,7 +14,7 @@ body {
   padding: 1rem;
 }
 
-.navbar {
+.navbar-section {
   height: 60px;
   width: 100%;
   display: flex;
@@ -22,24 +22,24 @@ body {
   align-items: center;
 }
 
-.navbar menu {
+.navbar-section menu {
   display: flex;
   gap: 2rem;
 }
 
-.navbar h4,
-.navbar i {
+.navbar-section h4,
+.navbar-section i {
   background: black;
   color: white;
   font-weight: 100;
   border-radius: 2rem;
 }
 
-.navbar h4 {
+.navbar-section h4 {
   padding: 8px 16px;
 }
 
-.navbar menu a {
+.navbar-section menu a {
   text-decoration: none;
   color: black;
   font-weight: 100;
@@ -47,12 +47,12 @@ body {
   border-radius: 2rem;
 }
 
-.navbar menu a.aboutus {
+.navbar-section menu a.aboutus {
   border: 1.2px solid rgb(183, 179, 179);
 }
 
 
-.hero {
+.hero-section {
   width: 100%;
   height: calc(100vh - 60px - 2rem);
   background: #212121;
@@ -60,12 +60,12 @@ body {
   background: url('https://unityholidays.co.uk/app/uploads/bis-images/1565/monitor-teaching-padel-class-2024-10-14-22-21-30-utc-scaled-1200x800-f70_56.jpg');
   background-size: cover;
   border-radius: 12px;
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.hero .content {
+.hero-section .content {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,26 +74,47 @@ body {
   padding-bottom: 2.2rem;
 }
 
-.hero .content h2,
-.hero .content h4,
-.hero .content button {
+.hero-section .content h2,
+.hero-section .content h4,
+.hero-section .content button {
   color: white;
 }
 
-.hero .content h2 {
+.hero-section .content h2 {
   font-weight: 500;
   font-size: 3rem;
   text-align: center;
 }
 
-.hero .content h4 {
+.hero-section .content h4 {
   font-weight: 100;
   font-size: 1.5rem;
   text-align: center;
 }
 
-.hero .content button {
-  background:0 #0D1A2D;
+.hero-section .content button {
+  background: 0 #0D1A2D;
   padding: 5px 10px;
   border-radius: 2rem;
+}
+
+.aboutus-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.aboutus-section .horizon {
+  color: black;
+  font-weight: 100;
+  padding: 5px 10px;
+  border-radius: 2rem;
+  border: 1.2px solid rgb(183, 179, 179);
+}
+.aboutus-section h3{
+  font-weight: 600;
+  color:#060D1C;
+  width:50%;
+  font-size:1.5rem;
 }

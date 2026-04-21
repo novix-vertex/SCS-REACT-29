@@ -5,7 +5,7 @@ const Navbar = () => {
         <nav className="navbar">
             <h3>Horizon Courts</h3>
             <menu>
-                <a href="#">About Us</a>
+                <a class="aboutus" href="#">About Us</a>
                 <a href="#">Services</a>
                 <a href="#">Coaches</a>
                 <a href="#">Events</a>

@@ -29,7 +29,7 @@ body {
 
 .navbar-section h4,
 .navbar-section i {
-  background: black;
+  background: #060D1C;
   color: white;
   font-weight: 100;
   border-radius: 2rem;
@@ -41,7 +41,7 @@ body {
 
 .navbar-section menu a {
   text-decoration: none;
-  color: black;
+  color: #060D1C;
   font-weight: 100;
   padding: 5px 10px;
   border-radius: 2rem;
@@ -108,7 +108,7 @@ body {
 }
 
 .aboutus-section .horizon {
-  color: black;
+  color: #060D1C;
   font-weight: 100;
   padding: 5px 10px;
   border-radius: 2rem;
@@ -333,7 +333,7 @@ body {
 }
 
 .services-section .card1 .services {
-  color: black;
+  color: #060D1C;
   font-weight: 100;
   padding: 5px 10px;
   border-radius: 2rem;
@@ -348,7 +348,7 @@ body {
 
 .services-section .card1 .explore,
 .services-section .card1 i {
-  background: black;
+  background: #060D1C;
   color: white;
   font-weight: 100;
   border-radius: 2rem;
@@ -456,7 +456,7 @@ body {
 
 .services-section .card3 .bottom i {
   border: 1px solid #ccc;
-  color: black;
+  color: #060D1C;
   border-radius: 50%;
   padding: 1rem;
 }

@@ -153,8 +153,8 @@ body {
 
 .card {
   width: 33.33%;
-  aspect-ratio: 1;
-  border-radius: 4rem;
+  aspect-ratio: 4/3;
+  border-radius: 2rem;
 }
 
 .factscards-section .card1 {
@@ -165,21 +165,113 @@ body {
   background: url('practice-person.webp');
   background-position: center;
   background-size: cover;
-  
+
   align-content: center;
   text-align: center;
 }
-.factscards-section .card2 button{
-  color:white;
-  background:  linear-gradient(to right,#93CCF0aa,#93CCF022);
-  padding:0.8rem 1.6rem;
+
+.factscards-section .card2 button {
+  color: white;
+  background: linear-gradient(to right, #93CCF0aa, #93CCF022);
+  padding: 0.8rem 1.6rem;
   border-radius: 2rem;
-  border:1px solid #93CCF022;
+  border: 1px solid #93CCF022;
   backdrop-filter: blur(20px);
   font-weight: 350;
   font-size: 1.2rem;
-  }
+}
 
 .factscards-section .card3 {
   background-color: #F6F8FC;
+}
+
+.services-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+}
+
+.services-section .card {
+  width: 33.33%;
+  aspect-ratio: 4/3;
+  border-radius: 2rem;
+  background-color: #F6F8FC;
+}
+
+.services-section .card1 {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.services-section .card1 .services {
+  color: black;
+  font-weight: 100;
+  padding: 5px 10px;
+  border-radius: 2rem;
+  border: 1.2px solid rgb(183, 179, 179);
+}
+
+.services-section .card1 h3 {
+  font-weight: 600;
+  color: #060D1C;
+  font-size: 1.5rem;
+}
+
+.services-section .card1 .explore,
+.services-section .card1 i {
+  background: black;
+  color: white;
+  font-weight: 100;
+  border-radius: 2rem;
+}
+
+.services-section .card1 .explore {
+  padding: 8px 16px;
+}
+
+.services-section .card2 {
+  background: url('tennis-player.webp');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1rem 1.5rem;
+}
+
+.services-section .card2 button {
+  color: white;
+  background: linear-gradient(to right, #93CCF0aa, #93CCF022);
+  padding: 0.8rem 1.6rem;
+  border-radius: 2rem;
+  border: 1px solid #93CCF022;
+  backdrop-filter: blur(20px);
+  font-weight: 350;
+  font-size: 1.2rem;
+}
+
+.services-section .card2 .bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services-section .card2 h4 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.5rem;
+  width:80%;
+}
+
+.services-section .card2 .bottom i {
+  background: #060D1C;
+  border-radius: 50%;
+  padding: 1rem;
+  color: #fff;
 }

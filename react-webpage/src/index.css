@@ -159,6 +159,56 @@ body {
 
 .factscards-section .card1 {
   background-color: #060D1C;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.factscards-section .card1 .top i {
+  color: #fff;
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+.factscards-section .card1 h3 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.factscards-section .card1 h3 span {
+  font-weight: 400;
+  color: #6C798B;
+}
+
+.factscards-section .card1 .bottom {
+  font-weight: 400;
+  color: #6C798B;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap:1.5rem;
+  width: 100%;
+}
+
+.factscards-section .card1 .bottom span {
+  background: #2EB3FF;
+  width: 120px;
+  border-radius: 2rem;
+  padding: 0.3rem 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.factscards-section .card1 .bottom span .circle {
+  color: #fff;
+  height:40px;
+  width:40px;
+  border: 5px solid #fff;
+  border-radius: 50%;
 }
 
 .factscards-section .card2 {
@@ -196,11 +246,9 @@ body {
   width: 33.33%;
   aspect-ratio: 4/3;
   border-radius: 2rem;
-  background-color: #F6F8FC;
 }
 
 .services-section .card1 {
-  background-color: transparent;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -279,20 +327,19 @@ body {
 
 
 .services-section .card3 {
-  background: none;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding:1rem 0;
-  gap:1rem;
-  }
+  padding: 1rem 0;
+  gap: 1rem;
+}
 
 .services-section .card3 .top {
   background: url('tennis-balls.webp');
   background-position: center;
   background-size: cover;
   aspect-ratio: 16/9;
-  height:160px;
+  height: 160px;
   border-radius: 2rem;
   display: flex;
   flex-direction: column;
@@ -326,13 +373,15 @@ body {
   font-size: 1.5rem;
   width: 80%;
 }
-.services-section .card3 .bottom{
+
+.services-section .card3 .bottom {
   display: flex;
-  gap:1rem;
+  gap: 1rem;
 }
-.services-section .card3 .bottom i{
+
+.services-section .card3 .bottom i {
   border: 1px solid #ccc;
-  color:black;
+  color: black;
   border-radius: 50%;
-  padding:1rem;
+  padding: 1rem;
 }

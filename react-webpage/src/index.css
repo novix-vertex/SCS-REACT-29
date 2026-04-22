@@ -190,7 +190,7 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap:1.5rem;
+  gap: 1.5rem;
   width: 100%;
 }
 
@@ -198,15 +198,15 @@ body {
   background: #2EB3FF;
   width: 120px;
   border-radius: 2rem;
-  padding: 0.3rem 1rem;
+  padding: 0.3rem 0.5rem 0.3rem 1rem;
   display: flex;
   justify-content: flex-end;
 }
 
 .factscards-section .card1 .bottom span .circle {
   color: #fff;
-  height:40px;
-  width:40px;
+  height: 40px;
+  width: 40px;
   border: 5px solid #fff;
   border-radius: 50%;
 }
@@ -233,6 +233,76 @@ body {
 
 .factscards-section .card3 {
   background-color: #F6F8FC;
+  color: #060D1C;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1rem;
+}
+
+.factscards-section .card3 .top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.factscards-section .card3 .top h3 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.factscards-section .card3 .top h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.factscards-section .card3 .top h5 {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #6C798B
+}
+
+.factscards-section .card3 .bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.factscards-section .card3 .bottom .level {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.factscards-section .card3 .bottom .level .level-text {
+  width: 10%;
+}
+
+.factscards-section .card3 .bottom .level h4 {
+  font-weight: 500;
+}
+
+
+.factscards-section .card3 .bottom .level .dots span {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap:5px;
+}
+
+.factscards-section .card3 .bottom .level .dots {
+  width: 40%;
+}
+
+.factscards-section .card3 .bottom .level .dots span i {
+  color: #2EB3FF;
 }
 
 .services-section {

@@ -257,6 +257,7 @@ body {
   font-size: 1.2rem;
 }
 
+
 .services-section .card2 .bottom {
   display: flex;
   justify-content: space-between;
@@ -266,7 +267,7 @@ body {
   color: #fff;
   font-weight: 400;
   font-size: 1.5rem;
-  width:80%;
+  width: 80%;
 }
 
 .services-section .card2 .bottom i {
@@ -274,4 +275,64 @@ body {
   border-radius: 50%;
   padding: 1rem;
   color: #fff;
+}
+
+
+.services-section .card3 {
+  background: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding:1rem 0;
+  gap:1rem;
+  }
+
+.services-section .card3 .top {
+  background: url('tennis-balls.webp');
+  background-position: center;
+  background-size: cover;
+  aspect-ratio: 16/9;
+  height:160px;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1rem;
+}
+
+.services-section .card3 .top button {
+  color: white;
+  background: linear-gradient(to right, #93CCF0aa, #93CCF022);
+  padding: 0.8rem 1.6rem;
+  border-radius: 2rem;
+  border: 1px solid #93CCF022;
+  backdrop-filter: blur(20px);
+  font-weight: 350;
+  font-size: 1.2rem;
+}
+
+
+.services-section .card3 h4 {
+  color: #060D1C;
+  font-weight: 400;
+  font-size: 1.5rem;
+  width: 70%;
+}
+
+.services-section .card3 .top h4 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.5rem;
+  width: 80%;
+}
+.services-section .card3 .bottom{
+  display: flex;
+  gap:1rem;
+}
+.services-section .card3 .bottom i{
+  border: 1px solid #ccc;
+  color:black;
+  border-radius: 50%;
+  padding:1rem;
 }

@@ -18,7 +18,16 @@ const Services = () => {
         </div>
 
       </div>
-      <div className="card3 card"></div>
+      <div className="card3 card">
+        <div className="top">
+          <button>Court Access</button>
+          <h4>Hourly Court Rental</h4>
+        </div>
+        <h4>Steps into a space built for players - to grow, complete, and thrive.</h4>
+        <div className="bottom">
+          <i class="ri-arrow-left-long-line"></i><i class="ri-arrow-right-long-line"></i>
+        </div>
+      </div>
 
     </div>
   )

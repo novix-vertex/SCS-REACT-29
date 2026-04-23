@@ -216,7 +216,7 @@ body {
 }
 
 .factscards-section .card2 {
-  background: url('practice-person.webp');
+  background: url('/practice-person.webp');
   background-position: center;
   background-size: cover;
 
@@ -359,7 +359,7 @@ body {
 }
 
 .services-section .card2 {
-  background: url('tennis-player.webp');
+  background: url('/tennis-player.webp');
   background-position: center;
   background-size: cover;
   display: flex;
@@ -410,7 +410,7 @@ body {
 }
 
 .services-section .card3 .top {
-  background: url('tennis-balls.webp');
+  background: url('/tennis-balls.webp');
   background-position: center;
   background-size: cover;
   aspect-ratio: 16/9;
